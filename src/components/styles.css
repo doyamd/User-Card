@@ -1,0 +1,62 @@
+
+.App{
+    width: 100vw;
+    height: 100hv;   
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 0px;
+}
+.card{
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    width:20%;
+    height:200px;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgb(89, 141, 102);
+}
+.avatar{
+    margin-left: 5px;
+    width: 80%;
+    border-radius: 500px;
+    border: 100px;
+}
+.info{
+    background-color: aliceblue;
+    font-size: 10px;
+    /* margin: 10px; */
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px; 
+       
+}
+.info > * {
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+.profiles{
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(87, 214, 214);
+}
+  @media (max-width: 1100px) {
+    .card {
+      width: 30%;
+      height: 45%;
+    }
+  }
+ 
